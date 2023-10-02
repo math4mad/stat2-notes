@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Title of Next Bestseller",
+    "section": "Welcome",
+    "text": "Welcome\nWelcome splash page! Provide an overview of the book.\nSample evaluation of R and Python in a side-by-side manner:\ntest\n::: {layout-ncol=2} #### R\n\nmy_list = list(1, 2, 3)\ntypeof(my_list)\n\n[1] \"list\"\n\n\n\nPython"
+  },
+  {
+    "objectID": "my-first-book.html",
+    "href": "my-first-book.html",
+    "title": "Part 1: Write the book",
+    "section": "",
+    "text": "Sample additional page"
+  },
+  {
+    "objectID": "hello-world.html",
+    "href": "hello-world.html",
+    "title": "1  The Hello World Example",
+    "section": "",
+    "text": "Hello Quarto World!"
+  },
+  {
+    "objectID": "appendix-notes.html",
+    "href": "appendix-notes.html",
+    "title": "Appendix A — Additional Notes",
+    "section": "",
+    "text": "Sample appendix"
+  }
+]
