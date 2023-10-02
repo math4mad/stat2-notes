@@ -1,0 +1,11 @@
+{
+  "hash": "abf569536055f465115133a2b3960e9a",
+  "result": {
+    "markdown": "# Introduction\n\nThis is a book created from markdown and executable code.\n\nSee @knuth84 for additional discussion of literate programming.\n\n::: {.cell execution_count=1}\n``` {.julia .cell-code}\n @info \"this is test\"\n```\n\n::: {.cell-output .cell-output-stderr}\n```\n[ Info: this is test\n```\n:::\n:::\n\n\n",
+    "supporting": [
+      "intro_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
