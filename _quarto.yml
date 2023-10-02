@@ -8,8 +8,8 @@ book:
   description: | 
     TBA
   #cover-image: images/cover.png
-  site-url: https://tutorials.thecoatlessprofessor.com/quarto-book-template
-  repo-url: https://github.com/coatless-tutorials/quarto-book-template
+  site-url: https://github.com/math4mad/stat2-notes
+  repo-url: https://github.com/math4mad/stat2-notes
   repo-branch: main
   repo-actions: [edit]
   sharing: [twitter, facebook, linkedin]
