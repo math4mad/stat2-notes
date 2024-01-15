@@ -1,0 +1,9 @@
+---
+title: "UintA: LiearRegression"
+author: math4mad
+code-fold: true
+---
+
+# UintA: LiearRegression {#LinearRegression}
+
+UintA: LiearRegression

@@ -6,6 +6,8 @@ Welcome splash page! Provide an overview of the book.
 
 Sample evaluation of R and Python in a side-by-side manner:
 
+test
+
 ::: {layout-ncol=2}
 #### R
 
@@ -16,8 +18,4 @@ typeof(my_list)
 
 #### Python
 
-```{python}
-my_list = [1, 2, 3]
-type(my_list)
-```
-:::
+

@@ -1,0 +1,1 @@
+Sitemap: https://math4mad.github.io/stat2-notes/sitemap.xml

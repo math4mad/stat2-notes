@@ -1,27 +1,32 @@
 project:
   type: book
-  output-dir: _book
+  output-dir: docs
   
 book:
-  title: "Title of Next Bestseller"
-  author: "JJB"
+  title: "Stat2"
+  author: "math4mad"
   description: | 
     TBA
   #cover-image: images/cover.png
-  site-url: https://github.com/math4mad/stat2-notes
+  site-url: https://math4mad.github.io/stat2-notes/
   repo-url: https://github.com/math4mad/stat2-notes
   repo-branch: main
   repo-actions: [edit]
-  sharing: [twitter, facebook, linkedin]
+  #sharing: [twitter, facebook, linkedin]
   chapters:
     - index.qmd
-    - part: my-first-book.qmd
+    - part: ./contents/my-first-book.qmd
       chapters: 
-        - hello-world.qmd
+        - ./contents/hello-world.qmd
+    - part: UnitA:LinearRegression
+      chapters:
+        - ./contents/chapter03/chapter03-1.qmd
+
   appendices:
-    - appendix-notes.qmd
+    - ./contents/appendix-notes.qmd
     
 format:
   html: 
     theme: cosmo
     code-link: true
+    warning: false

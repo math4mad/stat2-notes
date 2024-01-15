@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Stat2",
+    "section": "",
+    "text": "Welcome\nWelcome splash page! Provide an overview of the book.\nSample evaluation of R and Python in a side-by-side manner:\ntest\n::: {layout-ncol=2} #### R\nmy_list = list(1, 2, 3)\ntypeof(my_list)\n\n[1] \"list\"",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Stat2",
+    "section": "",
+    "text": "Python",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "contents/my-first-book.html",
+    "href": "contents/my-first-book.html",
+    "title": "Part 1: Write the book",
+    "section": "",
+    "text": "Sample additional page",
+    "crumbs": [
+      "Part 1: Write the book"
+    ]
+  },
+  {
+    "objectID": "contents/hello-world.html",
+    "href": "contents/hello-world.html",
+    "title": "The Hello World Example",
+    "section": "",
+    "text": "Hello Quarto World!",
+    "crumbs": [
+      "Part 1: Write the book",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Hello World Example</span>"
+    ]
+  },
+  {
+    "objectID": "contents/chapter03/chapter03-1.html",
+    "href": "contents/chapter03/chapter03-1.html",
+    "title": "chapter03-1",
+    "section": "",
+    "text": "Code\ninclude(\"../utils.jl\")\n\n\nplot_reg_data\n\n\n\n\nCode\n    desc=Stat2Table(314,\"Kids198\",\"boy-girl-growth-rate\",[:Age,:Weight,:Sex])\n    data=@pipe load_rda(desc.name)|&gt;select(_,desc.feature)\n    gdf=groupby(data,:Sex)\n\n\nGroupedDataFrame with 2 groups based on key: SexFirst Group (96 rows): Sex = 071 rows omitted\n\n\n\nRow\nAge\nWeight\nSex\n\n\n\nInt32\nInt32\nInt32\n\n\n\n\n1\n210\n166\n0\n\n\n2\n119\n54\n0\n\n\n3\n157\n115\n0\n\n\n4\n102\n52\n0\n\n\n5\n155\n89\n0\n\n\n6\n134\n80\n0\n\n\n7\n186\n139\n0\n\n\n8\n162\n129\n0\n\n\n9\n105\n47\n0\n\n\n10\n173\n121\n0\n\n\n11\n111\n63\n0\n\n\n12\n206\n132\n0\n\n\n13\n109\n60\n0\n\n\n⋮\n⋮\n⋮\n⋮\n\n\n85\n134\n81\n0\n\n\n86\n166\n154\n0\n\n\n87\n181\n115\n0\n\n\n88\n115\n66\n0\n\n\n89\n177\n117\n0\n\n\n90\n106\n62\n0\n\n\n91\n179\n157\n0\n\n\n92\n110\n55\n0\n\n\n93\n192\n126\n0\n\n\n94\n135\n66\n0\n\n\n95\n208\n161\n0\n\n\n96\n183\n94\n0\n\n\n\n\n⋮\n\n\nLast Group (102 rows): Sex = 1\n\n\n77 rows omitted\n\n\n\n\n\n\n\n\n\nRow\nAge\nWeight\nSex\n\n\n\nInt32\nInt32\nInt32\n\n\n\n\n1\n144\n93\n1\n\n\n2\n130\n69\n1\n\n\n3\n198\n108\n1\n\n\n4\n199\n118\n1\n\n\n5\n122\n55\n1\n\n\n6\n196\n113\n1\n\n\n7\n184\n112\n1\n\n\n8\n113\n60\n1\n\n\n9\n151\n79\n1\n\n\n10\n119\n73\n1\n\n\n11\n138\n106\n1\n\n\n12\n103\n68\n1\n\n\n13\n106\n59\n1\n\n\n⋮\n⋮\n⋮\n⋮\n\n\n91\n118\n77\n1\n\n\n92\n146\n129\n1\n\n\n93\n210\n114\n1\n\n\n94\n100\n61\n1\n\n\n95\n213\n136\n1\n\n\n96\n163\n99\n1\n\n\n97\n220\n142\n1\n\n\n98\n166\n94\n1\n\n\n99\n189\n130\n1\n\n\n100\n189\n135\n1\n\n\n101\n174\n119\n1\n\n\n102\n148\n86\n1",
+    "crumbs": [
+      "UnitA:LinearRegression",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>chapter03-1</span>"
+    ]
+  },
+  {
+    "objectID": "contents/appendix-notes.html",
+    "href": "contents/appendix-notes.html",
+    "title": "Additional Notes",
+    "section": "",
+    "text": "Sample appendix",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Additional Notes</span>"
+    ]
+  }
+]

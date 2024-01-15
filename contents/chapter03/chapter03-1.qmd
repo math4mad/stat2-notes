@@ -1,0 +1,16 @@
+---
+title: "chapter03-1"
+author: math4mad
+code-fold: true
+---
+
+```{julia}
+include("../utils.jl")
+```
+
+```{julia}
+    desc=Stat2Table(314,"Kids198","boy-girl-growth-rate",[:Age,:Weight,:Sex])
+    data=@pipe load_rda(desc.name)|>select(_,desc.feature)
+    gdf=groupby(data,:Sex)
+```
+

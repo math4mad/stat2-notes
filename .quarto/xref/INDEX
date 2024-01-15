@@ -10,5 +10,44 @@
   },
   "references.qmd": {
     "references.html": "add137dd"
+  },
+  "my-first-book.qmd": {
+    "my-first-book.html": "e420de36"
+  },
+  "hello-world.qmd": {
+    "hello-world.html": "8d09f4e7"
+  },
+  "appendix-notes.qmd": {
+    "appendix-notes.html": "461d9554"
+  },
+  "chapter03-1.qmd": {
+    "chapter03-1.html": "383e21f6"
+  },
+  "./contents/my-first-book.qmd": {
+    "my-first-book.html": "bb9bc0a4"
+  },
+  "./contents/hello-world.qmd": {
+    "hello-world.html": "f2b2cd1c"
+  },
+  "./contents/chapter03-1.qmd": {
+    "chapter03-1.html": "f34aa30c"
+  },
+  "./contents/appendix-notes.qmd": {
+    "appendix-notes.html": "f9851c88"
+  },
+  "./contents/chapter03/chapter03-1.qmd": {
+    "chapter03-1.html": "59d914a0"
+  },
+  "contents/chapter03/chapter03-1.qmd": {
+    "chapter03-1.html": "d9835c83"
+  },
+  "contents/my-first-book.qmd": {
+    "my-first-book.html": "40d3aed1"
+  },
+  "contents/hello-world.qmd": {
+    "hello-world.html": "086c6daf"
+  },
+  "contents/appendix-notes.qmd": {
+    "appendix-notes.html": "1e5d8bd8"
   }
 }
